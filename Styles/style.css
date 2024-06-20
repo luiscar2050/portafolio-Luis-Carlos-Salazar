@@ -1,0 +1,1236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+        height: 100vh;
+        background-color: #252527;    
+    }
+
+    header{
+        width: 100%;
+        height: 22%;
+        background-color: #11359e;
+    }
+
+    .imagen{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-imagen{
+        width: 50%;
+        height: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    .contenedor-imagen > img{
+        width: 68%;
+        height: 80%;
+        border-radius: 7rem;
+    }    
+
+    .imagen > h1{
+        width: 50%;
+        font-size: 19px;
+        color: white;
+        font-family: "Rubik", sans-serif;
+        font-weight: 700;
+    }
+
+    main{
+        width: 100%;
+        height: 200vh;;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-informacion{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .informacion{
+        width: 100%;
+        height: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacion > h1{
+        width: 100%;
+        height: 100%;
+        color: white;
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 17px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-mi{
+        width: 100%;
+        height: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    .sobre-mi > h1{
+        width: 70%;
+        height: 90%;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+        background-color: #11359e;
+        border-radius: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parrafo{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .parrafo > p{
+        width: 80%;
+        height: 100%;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        border-radius: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+
+    .proyectos{
+        width: 100%;
+        height: 3%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;   
+    }
+
+    .proyectos > h1{
+        width: 100%;
+        height: 100%;
+        color: white;
+        background-color: #11359e;
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 17px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-carta{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .proyecto-1{
+        width: 90%;
+        height: 90%;
+        background-color: #11359e;
+        border: 2px solid white;
+        margin-top: 1.8rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proyecto-1 > img{
+        width: 3.5cm;
+        height: 3.5cm;
+        border-radius: 2rem;
+    }
+
+    .titulo-proyecto{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-proyecto > h1{
+        width: 100%;
+        height: 20%;
+       text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+    }
+    
+    .titulo-proyecto > p{
+        width: 90%;
+        text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 13px;
+    }
+    
+    .titulo-proyecto > a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .contenedor-carta2{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .proyecto-2{
+        width: 90%;
+        height: 90%;
+        background-color: #11359e;
+        border: 2px solid white;
+        margin-top: 1.8rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proyecto-2 > img{
+        width: 3.5cm;
+        height: 3.5cm;
+        border-radius: 2rem;
+    }
+
+    .titulo-proyecto2{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-proyecto2 > h1{
+        width: 100%;
+        height: 20%;
+       text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+    }
+    
+    .titulo-proyecto2 > p{
+        width: 90%;
+        text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 13px;
+    }
+    
+    .titulo-proyecto2 > a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .contenedor-carta3{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .proyecto-3{
+        width: 90%;
+        height: 90%;
+        background-color: #11359e;
+        border: 2px solid white;
+        margin-top: 2rem;
+        border-radius: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .proyecto-3 > img{
+        width: 3.5cm;
+        height: 3.5cm;
+        border-radius: 2rem;
+    }
+
+    .titulo-proyecto3{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-proyecto3 > h1{
+        width: 100%;
+        height: 20%;
+       text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+    }
+    
+    .titulo-proyecto3 > p{
+        width: 90%;
+        text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 13px;
+    }
+    
+    .titulo-proyecto3 > a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .referencias{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    .referencias > h1{
+        width: 100%;
+        height: 50%;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        font-family: "Source Sans 3", sans-serif;
+        background-color:#11359e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .referen1{
+        width: 100%;
+        height: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .refe1{
+        width: 80%;
+        height: 90%;
+        background-color: transparent;
+        border: 3px solid #11359e;
+        border-radius: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .refe1 > h2{
+        width: 70%;
+        height: 70%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+    }
+
+    .experiencia{
+        width: 100%;
+        height: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .experiencia > h1{
+        width: 100%;
+        height: 100%;
+        color: white;
+        background-color: #11359e;
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 17px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenes-expe{
+        width: 100%;
+        height: 12%;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenes{
+        width: 29%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .imagenes > img{
+        width: 2.8cm;
+        height: 2.8cm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .porcentaje{
+        width: 90%;
+        height: 30%;
+    }
+
+    .imagenes-expe2{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenes2{
+        width: 32%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenes2 > img{
+        width: 4cm;
+        height: 2.5cm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imagenes2 > #mysql{
+        width: 3cm;
+        height: 2.5cm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagenes2 > #github{
+        width: 2.6cm;
+        height: 2.5cm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .porcentaje2{
+        width: 75%;
+        height: 30%;
+    }
+
+    footer{
+        margin-top: 2rem;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    
+    .titulo-contacto{
+        width: 100%;
+        height: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .titulo-contacto > h1{
+        width: 100%;
+        height: 100%;
+        color: white; 
+        background-color: #11359e;
+        font-size: 17px;
+        font-family: "Source Sans 3", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 0 2rem 2rem;
+    }
+
+    .redes{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .red1 > a > img{
+        width: 1.8cm;
+        height: 1.8cm;
+    }
+
+    .red2 > a > img{
+        width: 1.8cm;
+        height: 1.8cm;
+    }
+
+    .red3 > a > img{
+        width: 1.8cm;
+        height: 1.8cm;
+    }
+
+    
+    @media screen and (min-width: 750px) and (max-width: 819px ){
+        
+        .contenedor-imagen > img{
+            width: 50%;
+            height: 80%;
+        }    
+    
+        .sobre-mi > h1{
+            width: 70%;
+            height: 80%;
+            font-size: 18px;
+            }
+    
+        .parrafo{
+            height: 4%;
+        }
+    
+        .parrafo > p{
+            width: 70%;
+        }
+        
+        .proyecto-1{
+            width: 70%;
+        }
+    
+        .proyecto-1 > img{
+            width: 3.8cm;
+        }
+        
+        .titulo-proyecto{
+            width: 60%;
+            }
+        
+        .titulo-proyecto > p{
+            width: 80%;
+        }
+        
+        
+        .proyecto-2{
+            width: 70%;
+        }
+    
+        .proyecto-2 > img{
+            width: 3.8cm;
+        }
+        
+        .titulo-proyecto2{
+            width: 60%;
+            }
+        
+        .titulo-proyecto2 > p{
+            width: 80%;
+        }
+    
+        .proyecto-3{
+            width: 70%;
+        }
+    
+        .proyecto-3 > img{
+            width: 3.8cm;
+        }
+        
+        .titulo-proyecto3{
+            width: 60%;
+            }
+        
+        .titulo-proyecto3 > p{
+            width: 80%;
+        }
+    
+        .refe1{
+            width: 60%;
+        }
+    
+        .imagenes{
+            align-items: center;
+        }
+                
+        .porcentaje{
+            width: 70%;
+            height: 20%;
+        }
+    
+        .imagenes2{
+            width: 28%;
+        }
+    
+        .porcentaje2{
+            width: 75%;
+            height: 20%;
+        }
+    
+    }
+
+    @media screen and (min-width: 820px) and (max-width: 1180px) {
+        .contenedor-imagen{
+            width: 40%;
+         }
+
+        .contenedor-imagen > img{
+            width: 60%;
+            height: 90%;
+        }    
+    
+        .imagen > h1{
+            width: 40%;
+        }
+
+        .sobre-mi > h1{
+            width: 40%;
+        }
+
+        .parrafo{
+            height: 5%;
+        }
+    
+        .parrafo > p{
+            width: 60%;
+            height: 80%;
+            font-size: 20px;
+        }   
+        
+        .proyecto-1 > img{
+            width: 4cm;
+            height: 4cm;
+        }
+
+        .proyecto-2 > img{
+            width: 4cm;
+            height: 4cm;
+        }
+
+        .proyecto-3 > img{
+            width: 4cm;
+            height: 4cm;
+        }
+        
+        .experiencia > h1{
+            font-size: 20px;
+        }
+    
+        .imagenes > img{
+            width: 3.8cm;
+            height: 3.8cm;
+        }
+        
+        .porcentaje{
+            width: 80%;
+        }
+    
+        .imagenes2{
+            width: 30%;
+        }
+    
+        .imagenes2 > img{
+            width: 5.5cm;
+            height: 3.7cm;
+        }
+        
+        .imagenes2 > #mysql{
+            width: 4cm;
+            height: 3.7cm;
+        }
+    
+        .imagenes2 > #github{
+            width: 3.8cm;
+            height: 3.8cm;
+        }
+    
+        .porcentaje2{
+            height: 20%;
+        }
+    
+        footer{
+            margin-top: 2rem;
+            width: 100%;
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        }
+        
+        .titulo-contacto > h1{
+            font-size: 20px;
+        }
+    
+        .red1 > a > img{
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+    
+        .red2 > a > img{
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+    
+        .red3 > a > img{
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+
+    } 
+
+    @media screen and (min-width: 1181px) and (max-width: 1559px) {
+        
+    header{
+        height: 30%;
+    }
+
+    .contenedor-imagen{
+        width: 30%;
+        height: 90%;
+    }
+
+    .contenedor-imagen > img{
+        width: 45%;
+    }    
+
+    .imagen > h1{
+        width: 50%;
+        font-size: 50px;
+    }
+    
+    .sobre-mi > h1{
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .parrafo > p{
+        width: 60%;
+        font-size: 20px;
+    }    
+
+    .proyectos > h1{
+        font-size: 20px;
+    }
+
+    .proyecto-1{
+        width: 50%;
+        height: 90%;
+    }
+    
+    .proyecto-1 > img{
+        width: 4cm;
+        height: 3.5cm;
+    }
+
+    .titulo-proyecto{
+        width: 60%;
+    }
+    
+    .titulo-proyecto > p{
+        width: 80%;
+    }
+    
+
+    .proyecto-2{
+        width: 60%;
+        height: 90%;
+    }
+
+    .proyecto-2{
+        width: 50%;
+        height: 90%;
+    }
+    
+    .proyecto-2 > img{
+        width: 4cm;
+        height: 3.5cm;
+    }
+
+    .titulo-proyecto2{
+        width: 60%;
+    }
+    
+    .titulo-proyecto2 > p{
+        width: 80%;
+    }
+
+    .proyecto-3{
+        width: 60%;
+        height: 90%;
+    }
+
+    .proyecto-3{
+        width: 50%;
+        height: 90%;
+    }
+    
+    .proyecto-3 > img{
+        width: 4cm;
+        height: 3.5cm;
+    }
+
+    .titulo-proyecto3{
+        width: 60%;
+    }
+    
+    .titulo-proyecto3 > p{
+        width: 80%;
+    }
+
+    .referencias > h1{
+        font-size: 20px;
+    }
+
+    .refe1{
+        width: 40%;
+    }
+
+    .experiencia > h1{
+        font-size: 20px;
+    }
+
+    .imagenes{
+        width: 20%;
+        align-items: center;
+    }
+    
+    .imagenes > img{
+        width: 4cm;
+        height: 4cm;
+    }
+    
+    .porcentaje{
+        width: 60%;
+        height: 40%;
+    }
+
+    .imagenes2{
+        width: 20%;
+    }
+
+    .imagenes2 > img{
+        width: 5cm;
+        height: 3.5cm;
+    }
+    
+    .imagenes2 > #mysql{
+        width: 4cm;
+        height: 3.5cm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagenes2 > #github{
+        width: 3.5cm;
+        height: 3.4cm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .porcentaje2{
+        width: 60%;
+        height: 20%;
+    }
+
+    }
+
+    @media screen and (min-width: 1560px) and (max-width: 1876px) {
+        header{
+            height: 20%;
+        }
+        
+        .contenedor-imagen {
+            width: 30%;
+            height: 90%;
+        }
+
+        .contenedor-imagen > img {
+            width: 60%;
+            height: 80%;
+            border-radius: 9rem;
+        }
+    
+        .imagen > h1{
+            font-size: 69px;
+        }
+
+        .informacion > h1 {
+            font-size: 27px;
+        }
+
+        .sobre-mi > h1 {
+            width: 30%;
+            height: 70%;
+            font-size: 25px;
+        }
+
+        .parrafo > p {
+            font-size: 35px;
+        }
+
+        .proyectos > h1 {
+            font-size: 27px;
+        }
+
+        .proyecto-1 {
+            width: 70%;
+            border-radius: 4rem;
+        }
+
+        .proyecto-1 > img {
+            width: 8cm;
+            height: 7cm;
+        }
+
+        .titulo-proyecto > h1 {
+            font-size: 32px;
+        }
+
+        .titulo-proyecto > p {
+            font-size: 27px;
+        }
+
+        .titulo-proyecto > a {
+            font-size: 18px;
+        }
+
+        .proyecto-2 {
+            width: 70%;
+            border-radius: 4rem;
+        }
+
+        .proyecto-2 > img {
+            width: 8cm;
+            height: 7cm;
+        }
+
+        .titulo-proyecto2 > h1 {
+            font-size: 32px;
+        }
+
+        .titulo-proyecto2 > p {
+            font-size: 27px;
+        }
+
+        .titulo-proyecto2 > a {
+            font-size: 18px;
+        }
+
+        .proyecto-3 {
+            width: 70%;
+            border-radius: 4rem;
+        }
+
+        .proyecto-3 > img {
+            width: 8cm;
+            height: 7cm;
+        }
+
+        .titulo-proyecto3 > h1 {
+            font-size: 32px;
+        }
+
+        .titulo-proyecto3 > p {
+            font-size: 27px;
+        }
+
+        .titulo-proyecto3 > a {
+            font-size: 18px;
+        }
+        
+        .referencias > h1 {
+            font-size: 25px;
+        }
+
+        .refe1 > h2 {
+            font-size: 25px;
+        }
+
+        .experiencia > h1 {
+            font-size: 27px;
+        }
+
+        .imagenes {
+            align-items: center;
+        }
+
+        .imagenes > img {
+            width: 5.5cm;
+            height: 5.5cm;
+         }
+
+         .porcentaje {
+            width: 60%;
+            height: 30%;
+        }
+
+        .imagenes2 > img {
+            width: 9cm;
+            height: 5.5cm;
+        }
+
+        .imagenes2 {
+            width: 28%;
+        }
+
+        .imagenes2 > #mysql {
+            width: 6.2cm;
+            height: 5.5cm;
+        }
+
+        .imagenes2 > #github {
+            width: 5.2cm;
+            height: 5.2cm;
+        }
+
+        .porcentaje2 {
+            width: 62%;
+        }
+
+        .titulo-contacto > h1 {
+            font-size: 27px;
+        }
+
+        .red1 > a > img {
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+
+        .red2 > a > img {
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+
+        .red3 > a > img {
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+    }
+
+    @media screen and (min-width: 1877px) and (max-width: 2144px) {
+        header{
+            height: 40%;
+        }
+        
+        .contenedor-imagen {
+            width: 30%;
+            height: 90%;
+        }
+
+        .contenedor-imagen > img {
+            width: 37%;
+            height: 80%;
+            border-radius: 9rem;
+        }
+    
+        .imagen > h1{
+            font-size: 68px;
+        }
+
+        .informacion > h1 {
+            font-size: 20px;
+        }
+
+        .sobre-mi > h1 {
+            width: 30%;
+            height: 90%;
+            font-size: 25px;
+        }
+
+        .parrafo{
+            height: 10%;
+        }
+    
+        .parrafo > p{
+            font-size: 30px;
+        }
+
+        .proyectos > h1 {
+            font-size: 30px;
+        }
+
+        .proyecto-1 {
+            width: 60%;
+            height: 90%;
+        }
+
+        .proyecto-1 > img {
+            width: 4cm;
+            height: 3.5cm;
+        }
+
+        .titulo-proyecto > h1 {
+            font-size: 25px;
+        }
+
+        .titulo-proyecto > p {
+            font-size: 20px;
+        }
+
+        .titulo-proyecto > a {
+            font-size: 18px;
+        }
+
+        .proyecto-2 {
+            width: 60%;
+            height: 90%;
+        }
+
+        .proyecto-2 > img {
+            width: 4cm;
+            height: 3.5cm;
+        }
+
+        .titulo-proyecto2 > h1 {
+            font-size: 25px;
+        }
+
+        .titulo-proyecto2 > p {
+            font-size: 20px;
+        }
+
+        .titulo-proyecto2 > a {
+            font-size: 18px;
+        }
+
+        .proyecto-3 {
+            width: 60%;
+            height: 90%;
+        }
+
+        .proyecto-3 > img {
+            width: 4cm;
+            height: 3.5cm;
+        }
+
+        .titulo-proyecto3 > h1 {
+            font-size: 25px;
+        }
+
+        .titulo-proyecto3 > p {
+            font-size: 20px;
+        }
+
+        .titulo-proyecto3 > a {
+            font-size: 18px;
+        }
+
+        .referencias > h1 {
+            font-size: 25px;
+        }
+
+        .refe1{
+            width: 40%;
+        }
+
+        .refe1 > h2 {
+            font-size: 20px;
+        }
+
+
+        .experiencia > h1 {
+            font-size: 27px;
+        }
+
+        .imagenes {
+            align-items: center;
+        }
+
+        .imagenes > img {
+            width: 3.5cm;
+            height: 3.5cm;
+         }
+
+         .porcentaje {
+            width: 40%;
+            height: 30%;
+        }
+
+        .imagenes2 > img {
+            width: 6cm;
+            height: 5cm;
+        }
+
+        .imagenes2 {
+            margin-top: 2rem;
+            width: 29%;
+        }
+
+        .imagenes2 > #mysql {
+            width: 4cm;
+            height: 4cm;
+        }
+
+        .imagenes2 > #github {
+            width: 3.5cm;
+            height: 3.6cm;
+        }
+
+        .porcentaje2 {
+            width: 42%;
+        }
+
+        .titulo-contacto > h1 {
+            font-size: 27px;
+        }
+
+        .red1 > a > img {
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+
+        .red2 > a > img {
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+
+        .red3 > a > img {
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+    
+        footer{
+            margin-top: 10rem;
+        }
+    }

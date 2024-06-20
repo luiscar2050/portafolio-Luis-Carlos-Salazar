@@ -1060,7 +1060,7 @@
 
         .contenedor-imagen > img {
             width: 37%;
-            height: 80%;
+            height: 70%;
             border-radius: 9rem;
         }
     
@@ -1234,3 +1234,5 @@
             margin-top: 10rem;
         }
     }
+
+   

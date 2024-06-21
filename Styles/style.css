@@ -513,211 +513,211 @@
         height: 1.8cm;
     }
 
-    
-    @media screen and (min-width: 750px) and (max-width: 819px ){
+
+ @media screen and (min-width: 750px) and (max-width: 819px ){
         
-        .contenedor-imagen > img{
-            width: 50%;
-            height: 80%;
-        }    
-    
-        .sobre-mi > h1{
-            width: 70%;
-            height: 80%;
-            font-size: 18px;
-            }
-    
-        .parrafo{
-            height: 4%;
+    .contenedor-imagen > img{
+        width: 50%;
+        height: 80%;
+    }    
+
+    .sobre-mi > h1{
+        width: 70%;
+        height: 80%;
+        font-size: 18px;
         }
-    
-        .parrafo > p{
-            width: 70%;
-        }
-        
-        .proyecto-1{
-            width: 70%;
-        }
-    
-        .proyecto-1 > img{
-            width: 3.8cm;
-        }
-        
-        .titulo-proyecto{
-            width: 60%;
-            }
-        
-        .titulo-proyecto > p{
-            width: 80%;
-        }
-        
-        
-        .proyecto-2{
-            width: 70%;
-        }
-    
-        .proyecto-2 > img{
-            width: 3.8cm;
-        }
-        
-        .titulo-proyecto2{
-            width: 60%;
-            }
-        
-        .titulo-proyecto2 > p{
-            width: 80%;
-        }
-    
-        .proyecto-3{
-            width: 70%;
-        }
-    
-        .proyecto-3 > img{
-            width: 3.8cm;
-        }
-        
-        .titulo-proyecto3{
-            width: 60%;
-            }
-        
-        .titulo-proyecto3 > p{
-            width: 80%;
-        }
-    
-        .refe1{
-            width: 60%;
-        }
-    
-        .imagenes{
-            align-items: center;
-        }
-                
-        .porcentaje{
-            width: 70%;
-            height: 20%;
-        }
-    
-        .imagenes2{
-            width: 28%;
-        }
-    
-        .porcentaje2{
-            width: 75%;
-            height: 20%;
-        }
-    
+
+    .parrafo{
+        height: 4%;
     }
 
-    @media screen and (min-width: 820px) and (max-width: 1180px) {
-        .contenedor-imagen{
-            width: 40%;
-         }
+    .parrafo > p{
+        width: 70%;
+    }
+    
+    .proyecto-1{
+        width: 70%;
+    }
 
-        .contenedor-imagen > img{
-            width: 60%;
-            height: 90%;
-        }    
+    .proyecto-1 > img{
+        width: 3.8cm;
+    }
     
-        .imagen > h1{
-            width: 40%;
+    .titulo-proyecto{
+        width: 60%;
         }
+    
+    .titulo-proyecto > p{
+        width: 80%;
+    }
+    
+    
+    .proyecto-2{
+        width: 70%;
+    }
 
-        .sobre-mi > h1{
-            width: 40%;
+    .proyecto-2 > img{
+        width: 3.8cm;
+    }
+    
+    .titulo-proyecto2{
+        width: 60%;
         }
+    
+    .titulo-proyecto2 > p{
+        width: 80%;
+    }
 
-        .parrafo{
-            height: 5%;
-        }
-    
-        .parrafo > p{
-            width: 60%;
-            height: 80%;
-            font-size: 20px;
-        }   
-        
-        .proyecto-1 > img{
-            width: 4cm;
-            height: 4cm;
-        }
+    .proyecto-3{
+        width: 70%;
+    }
 
-        .proyecto-2 > img{
-            width: 4cm;
-            height: 4cm;
+    .proyecto-3 > img{
+        width: 3.8cm;
+    }
+    
+    .titulo-proyecto3{
+        width: 60%;
         }
+    
+    .titulo-proyecto3 > p{
+        width: 80%;
+    }
 
-        .proyecto-3 > img{
-            width: 4cm;
-            height: 4cm;
-        }
-        
-        .experiencia > h1{
-            font-size: 20px;
-        }
-    
-        .imagenes > img{
-            width: 3.8cm;
-            height: 3.8cm;
-        }
-        
-        .porcentaje{
-            width: 80%;
-        }
-    
-        .imagenes2{
-            width: 30%;
-        }
-    
-        .imagenes2 > img{
-            width: 5.5cm;
-            height: 3.7cm;
-        }
-        
-        .imagenes2 > #mysql{
-            width: 4cm;
-            height: 3.7cm;
-        }
-    
-        .imagenes2 > #github{
-            width: 3.8cm;
-            height: 3.8cm;
-        }
-    
-        .porcentaje2{
-            height: 20%;
-        }
-    
-        footer{
-            margin-top: 2rem;
-            width: 100%;
-            height: 20%;
-            display: flex;
-            flex-direction: column;
-            background-color: white;
-        }
-        
-        .titulo-contacto > h1{
-            font-size: 20px;
-        }
-    
-        .red1 > a > img{
-            width: 2.5cm;
-            height: 2.5cm;
-        }
-    
-        .red2 > a > img{
-            width: 2.5cm;
-            height: 2.5cm;
-        }
-    
-        .red3 > a > img{
-            width: 2.5cm;
-            height: 2.5cm;
-        }
+    .refe1{
+        width: 60%;
+    }
 
-    } 
+    .imagenes{
+        align-items: center;
+    }
+            
+    .porcentaje{
+        width: 70%;
+        height: 20%;
+    }
 
-    @media screen and (min-width: 1181px) and (max-width: 1559px) {
+    .imagenes2{
+        width: 28%;
+    }
+
+    .porcentaje2{
+        width: 75%;
+        height: 20%;
+    }
+
+}
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .contenedor-imagen{
+        width: 40%;
+     }
+
+    .contenedor-imagen > img{
+        width: 60%;
+        height: 90%;
+    }    
+
+    .imagen > h1{
+        width: 40%;
+    }
+
+    .sobre-mi > h1{
+        width: 40%;
+    }
+
+    .parrafo{
+        height: 5%;
+    }
+
+    .parrafo > p{
+        width: 60%;
+        height: 80%;
+        font-size: 20px;
+    }   
+    
+    .proyecto-1 > img{
+        width: 4cm;
+        height: 4cm;
+    }
+
+    .proyecto-2 > img{
+        width: 4cm;
+        height: 4cm;
+    }
+
+    .proyecto-3 > img{
+        width: 4cm;
+        height: 4cm;
+    }
+    
+    .experiencia > h1{
+        font-size: 20px;
+    }
+
+    .imagenes > img{
+        width: 3.8cm;
+        height: 3.8cm;
+    }
+    
+    .porcentaje{
+        width: 80%;
+    }
+
+    .imagenes2{
+        width: 30%;
+    }
+
+    .imagenes2 > img{
+        width: 5.5cm;
+        height: 3.7cm;
+    }
+    
+    .imagenes2 > #mysql{
+        width: 4cm;
+        height: 3.7cm;
+    }
+
+    .imagenes2 > #github{
+        width: 3.8cm;
+        height: 3.8cm;
+    }
+
+    .porcentaje2{
+        height: 20%;
+    }
+
+    footer{
+        margin-top: 2rem;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    
+    .titulo-contacto > h1{
+        font-size: 20px;
+    }
+
+    .red1 > a > img{
+        width: 2.5cm;
+        height: 2.5cm;
+    }
+
+    .red2 > a > img{
+        width: 2.5cm;
+        height: 2.5cm;
+    }
+
+    .red3 > a > img{
+        width: 2.5cm;
+        height: 2.5cm;
+    }
+
+} 
+
+@media screen and (min-width: 1181px) and (max-width: 1559px) {
         
     header{
         height: 30%;
@@ -875,373 +875,213 @@
 
     }
 
-    @media screen and (min-width: 1560px) and (max-width: 1876px) {
+    @media screen and (min-width: 1001px) and (max-width: 1426px ){
         header{
-            height: 20%;
+            height: 40%;
         }
-        
-        .contenedor-imagen {
+
+        .contenedor-imagen{
             width: 30%;
             height: 90%;
-        }
-
-        .contenedor-imagen > img {
-            width: 60%;
-            height: 80%;
-            border-radius: 9rem;
-        }
-    
-        .imagen > h1{
-            font-size: 69px;
-        }
-
-        .informacion > h1 {
-            font-size: 27px;
-        }
-
-        .sobre-mi > h1 {
-            width: 30%;
-            height: 70%;
-            font-size: 25px;
-        }
-
-        .parrafo > p {
-            font-size: 35px;
-        }
-
-        .proyectos > h1 {
-            font-size: 27px;
-        }
-
-        .proyecto-1 {
-            width: 70%;
-            border-radius: 4rem;
-        }
-
-        .proyecto-1 > img {
-            width: 8cm;
-            height: 7cm;
-        }
-
-        .titulo-proyecto > h1 {
-            font-size: 32px;
-        }
-
-        .titulo-proyecto > p {
-            font-size: 27px;
-        }
-
-        .titulo-proyecto > a {
-            font-size: 18px;
-        }
-
-        .proyecto-2 {
-            width: 70%;
-            border-radius: 4rem;
-        }
-
-        .proyecto-2 > img {
-            width: 8cm;
-            height: 7cm;
-        }
-
-        .titulo-proyecto2 > h1 {
-            font-size: 32px;
-        }
-
-        .titulo-proyecto2 > p {
-            font-size: 27px;
-        }
-
-        .titulo-proyecto2 > a {
-            font-size: 18px;
-        }
-
-        .proyecto-3 {
-            width: 70%;
-            border-radius: 4rem;
-        }
-
-        .proyecto-3 > img {
-            width: 8cm;
-            height: 7cm;
-        }
-
-        .titulo-proyecto3 > h1 {
-            font-size: 32px;
-        }
-
-        .titulo-proyecto3 > p {
-            font-size: 27px;
-        }
-
-        .titulo-proyecto3 > a {
-            font-size: 18px;
-        }
-        
-        .referencias > h1 {
-            font-size: 25px;
-        }
-
-        .refe1 > h2 {
-            font-size: 25px;
-        }
-
-        .experiencia > h1 {
-            font-size: 27px;
-        }
-
-        .imagenes {
+            display: flex;
             align-items: center;
-        }
-
-        .imagenes > img {
-            width: 5.5cm;
-            height: 5.5cm;
-         }
-
-         .porcentaje {
-            width: 60%;
-            height: 30%;
-        }
-
-        .imagenes2 > img {
-            width: 9cm;
-            height: 5.5cm;
-        }
-
-        .imagenes2 {
-            width: 28%;
-        }
-
-        .imagenes2 > #mysql {
-            width: 6.2cm;
-            height: 5.5cm;
-        }
-
-        .imagenes2 > #github {
-            width: 5.2cm;
-            height: 5.2cm;
-        }
-
-        .porcentaje2 {
-            width: 62%;
-        }
-
-        .titulo-contacto > h1 {
-            font-size: 27px;
-        }
-
-        .red1 > a > img {
-            width: 2.5cm;
-            height: 2.5cm;
-        }
-
-        .red2 > a > img {
-            width: 2.5cm;
-            height: 2.5cm;
-        }
-
-        .red3 > a > img {
-            width: 2.5cm;
-            height: 2.5cm;
-        }
-    }
-
-    @media screen and (min-width: 1877px) and (max-width: 2144px) {
-         
-        @media (min-heigth: 1877px) and (max-heigth: 2144px) {
-            .contenedor-imagen > img {
-                width: 20%;
-                height: 80%;
-                border-radius: 9rem;
-            }
-        } 
-
-        header{
-            height: 50%;
-        }
-        
-        .contenedor-imagen {
-            width: 30%;
-            height: 90%;
-        }
-
-        .contenedor-imagen > img {
-            width: 35%;
-            height: 70%;
-            border-radius: 9rem;
+            justify-content: center;    
         }
     
+        .contenedor-imagen > img{
+            width: 40%;
+            height: 80%;
+            border-radius: 7rem;
+        }    
+    
         .imagen > h1{
-            font-size: 68px;
-        }
-
-        .informacion > h1 {
-            font-size: 20px;
-        }
-
-        .sobre-mi > h1 {
-            width: 30%;
-            height: 90%;
+            width: 40%;
             font-size: 25px;
+            color: white;
+            font-family: "Rubik", sans-serif;
+            font-weight: 700;
         }
 
+        main{
+            width: 100%;
+            height: 250vh;;
+        }
+
+        .contenedor-informacion{
+            width: 100%;
+            height: 100%;
+        }
+    
+        .informacion{
+            height: 5%;
+        }
+    
+        .sobre-mi > h1{
+            width: 30%;
+            font-size: 15px;
+        }
+    
         .parrafo{
-            height: 10%;
+            height: 8%;
         }
     
         .parrafo > p{
-            font-size: 30px;
+            width: 70%;
+            font-size: 17px;
+        }    
+    
+        .proyectos > h1{
+            font-size: 15px;
         }
-
-        .proyectos > h1 {
-            font-size: 30px;
+    
+        .contenedor-carta{
+            height: 15%;
         }
-
-        .proyecto-1 {
+    
+        .proyecto-1{
             width: 60%;
-            height: 90%;
         }
-
-        .proyecto-1 > img {
+    
+        .proyecto-1 > img{
             width: 4cm;
             height: 3.5cm;
         }
-
-        .titulo-proyecto > h1 {
-            font-size: 25px;
+    
+        .titulo-proyecto{
+            width: 70%;
         }
-
-        .titulo-proyecto > p {
-            font-size: 20px;
+        
+        .contenedor-carta2{
+            height: 15%;
         }
-
-        .titulo-proyecto > a {
-            font-size: 18px;
-        }
-
-        .proyecto-2 {
+    
+        .proyecto-2{
             width: 60%;
-            height: 90%;
         }
-
-        .proyecto-2 > img {
+    
+        .proyecto-2 > img{
             width: 4cm;
             height: 3.5cm;
         }
-
-        .titulo-proyecto2 > h1 {
-            font-size: 25px;
+    
+        .titulo-proyecto2{
+            width: 70%;
         }
-
-        .titulo-proyecto2 > p {
-            font-size: 20px;
+    
+        .contenedor-carta3{
+            height: 15%;
         }
-
-        .titulo-proyecto2 > a {
-            font-size: 18px;
-        }
-
-        .proyecto-3 {
+    
+        .proyecto-3{
             width: 60%;
-            height: 90%;
         }
-
-        .proyecto-3 > img {
+    
+        .proyecto-3 > img{
             width: 4cm;
             height: 3.5cm;
         }
-
-        .titulo-proyecto3 > h1 {
-            font-size: 25px;
+    
+        .titulo-proyecto3{
+            width: 70%;
         }
 
-        .titulo-proyecto3 > p {
-            font-size: 20px;
+        .referencias{
+            height: 10%;
         }
-
-        .titulo-proyecto3 > a {
-            font-size: 18px;
+    
+        .referen1{
+            width: 100%;
+            height: 10%;
         }
-
-        .referencias > h1 {
-            font-size: 25px;
-        }
-
+    
         .refe1{
-            width: 40%;
+            width: 60%;
+            height: 90%;
+            background-color: transparent;
+            border: 3px solid #11359e;
+            border-radius: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
-
-        .refe1 > h2 {
-            font-size: 20px;
+    
+        .refe1 > h2{
+            width: 70%;
+            height: 70%;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
         }
-
 
         .experiencia > h1 {
-            font-size: 27px;
+            font-size: 13px;
         }
 
-        .imagenes {
-            align-items: center;
+        .imagenes-expe {
+            margin-top: 1rem;
         }
-
-        .imagenes > img {
-            width: 3.5cm;
-            height: 3.5cm;
-         }
-
-         .porcentaje {
-            width: 40%;
+        
+        .imagenes > img{
+            width: 2.5cm;
+            height: 2.5cm;
+        }
+        
+        .porcentaje{
+            width: 50%;
             height: 30%;
         }
 
-        .imagenes2 > img {
-            width: 6cm;
-            height: 5cm;
-        }
-
-        .imagenes2 {
-            margin-top: 2rem;
+        .imagenes2{
             width: 29%;
         }
-
-        .imagenes2 > #mysql {
+    
+        .imagenes2 > img{
             width: 4cm;
-            height: 4cm;
-        }
-
-        .imagenes2 > #github {
-            width: 3.5cm;
-            height: 3.6cm;
-        }
-
-        .porcentaje2 {
-            width: 42%;
-        }
-
-        .titulo-contacto > h1 {
-            font-size: 27px;
-        }
-
-        .red1 > a > img {
-            width: 2.5cm;
             height: 2.5cm;
         }
-
-        .red2 > a > img {
-            width: 2.5cm;
+        
+        .imagenes2 > #mysql{
+            width: 2.7cm;
             height: 2.5cm;
         }
-
-        .red3 > a > img {
+    
+        .imagenes2 > #github{
             width: 2.5cm;
             height: 2.5cm;
         }
     
-        footer{
-            margin-top: 10rem;
+        .porcentaje2{
+            width: 50%;
+            height: 30%;
         }
-    }
 
-   
+        footer{
+            margin-top: 30rem;
+        }
+        
+        .titulo-contacto > h1{
+            font-size: 12px;
+        }
+    
+        .red1 > a > img{
+            width: 1.2cm;
+            height: 1.2cm;
+        }
+    
+        .red2 > a > img{
+            width: 1.2cm;
+            height: 1.2cm;
+        }
+    
+        .red3 > a > img{
+            width: 1.2cm;
+            height: 1.2cm;
+        }
+}
+
+    
